@@ -398,3 +398,9 @@ footer{
     }
 }
 
+/* chart style */
+
+td{
+    font-size: 12px;
+    text-transform: uppercase;
+}
