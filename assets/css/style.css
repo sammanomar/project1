@@ -103,7 +103,7 @@ h1, h2{
     padding-top: 40px;
     padding-left: 10px;
 
-    background-color: rgba(79, 185, 255, 0.7);
+    background-color: rgba(205, 79, 255, 0.7);
 
     bottom: 200px;
     right: 158px;
@@ -147,7 +147,17 @@ hr {
     line-height: 20px;
     clear: both;
     margin-bottom: 50px;
+    
 }
+
+.left-about-heading p {
+    text-align: left;
+}
+
+.left-about-heading h2 {
+    text-align: left;
+}
+
 
 .right-about-heading {
     width: 60%;
@@ -367,7 +377,7 @@ footer{
     }
 
     #club-ethos{
-        width:90%;
+        width: 90%;
         height: 1200px;
         margin: 0 auto;
     }
@@ -403,4 +413,27 @@ footer{
 td{
     font-size: 12px;
     text-transform: uppercase;
+}
+
+/* Experience Section */
+
+/* to be added later */
+#center-about-career{
+    padding-top: 30px;
+    width: 60%;
+    float: left;
+    margin-left: 10%;
+}    
+
+.center-about-heading-career{
+    width: 100%;
+    float: right;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
+/* to be added later */
+
+#bigger-text{
+    font-size: 21px;
 }
