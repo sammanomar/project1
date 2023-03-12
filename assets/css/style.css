@@ -211,6 +211,7 @@ hr {
     background-position: center;
     width: 100%;
     overflow: hidden;
+    
 }
 
 #times div {
@@ -223,6 +224,8 @@ hr {
     text-align: center;
     border: 2px solid white;
     box-sizing: border-box;
+    
+    
 }
 
 #times h2 {
@@ -418,6 +421,7 @@ td{
 /* Experience Section */
 
 /* to be added later */
+
 #center-about-career{
     padding-top: 30px;
     width: 60%;
