@@ -9,6 +9,7 @@
 body{
     font-family: Lato, sans-serif;
     color: #3a3a3a;
+    
 }
 
 /* headings and logo */
@@ -196,7 +197,7 @@ hr {
 }
 
 #circle-cover-bg {
-    background: url("../images/sea.jpg") no-repeat center center;
+    background: url("../images/data.jpg") no-repeat center center;
     height: 100%;
     border-radius: 50%;
     background-size: cover;
@@ -235,9 +236,15 @@ hr {
 
 /* Footer */
 
-footer{
-    height: 0px;
-}
+footer {
+	
+    padding: 1em;
+    text-align: center;
+    width: 100%;
+    background: white;
+     }
+    
+    
 
 .social-networks{
     text-align: center;
@@ -251,7 +258,7 @@ footer{
 .social-networks i{
     font-size: 160%;
     margin: 1%;
-    padding: 5%;
+    padding: 0px;
     color: #3a3a3a;
 }
 
