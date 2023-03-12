@@ -324,6 +324,15 @@ footer{
     color:#f16c6b;
 }
 
+/* Added by me to the form */
+
+#message { 
+    margin: 0px;
+    width: 400px;
+    height: 100px;
+    margin-top: 10px; 
+
+}
 
 /* Media queries */
 
