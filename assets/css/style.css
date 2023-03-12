@@ -412,6 +412,7 @@ footer{
     }
 }
 
+/* my new adds */
 /* chart style */
 
 td{
@@ -423,22 +424,28 @@ td{
 
 /* to be added later */
 
-#center-about-career{
-    padding-top: 30px;
-    width: 60%;
-    float: left;
-    margin-left: 10%;
-}    
-
-.center-about-heading-career{
-    width: 100%;
-    float: right;
-    line-height: 20px;
-    clear: both;
-    margin-bottom: 50px;
-}
 /* to be added later */
 
 #bigger-text{
     font-size: 21px;
 }
+
+/* contact */
+
+
+/* map */
+
+#map-wrapper {
+
+    height: 300px;
+    margin-bottom: 20px;
+    margin-top: 0px;
+    text-align: center;
+}
+
+#map {
+    height: 100%;
+    width: 100%;
+    border: none;
+}
+
