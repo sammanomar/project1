@@ -69,6 +69,7 @@ h1, h2{
     height: 600px;
     width: 100%;
     background: url('../images/picsun.jpg') no-repeat center center;
+    background-size: cover;
 
 
     /* Animates zoom effect on loading the page */
@@ -103,7 +104,7 @@ h1, h2{
     padding-top: 40px;
     padding-left: 10px;
 
-    background-color: rgba(205, 79, 255, 0.7);
+    background-color: rgb(41, 159, 255);
 
     bottom: 200px;
     right: 158px;
@@ -205,7 +206,7 @@ hr {
 /* Event times */
 
 #times{
-    background-image: url("https://codeinstitute.s3.amazonaws.com/FundamentalsProjects/HTML-CSS/dublin-city.png");
+    background-image: url('/assets/images/sea.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
