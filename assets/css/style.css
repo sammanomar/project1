@@ -244,7 +244,6 @@ footer {
     background: white;
      }
     
-    
 
 .social-networks{
     text-align: center;
@@ -429,6 +428,15 @@ footer {
 }
 
 /* my new adds */
+
+.footer-experience {
+    flex-shrink: 0; 
+    bottom: 0; 
+    position: fixed;
+
+}
+
+
 /* chart style */
 
 td{
