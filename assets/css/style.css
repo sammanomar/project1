@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Oswald|Lato:300');
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@300&family=Spectral+SC:wght@300&display=swap');
 
 *{
     margin:0;
@@ -7,7 +7,7 @@
 }
 
 body{
-    font-family: Lato, sans-serif;
+    font-family: Karla, sans-serif;
     color: #3a3a3a;
     
 }
@@ -15,9 +15,9 @@ body{
 /* headings and logo */
 
 h1, h2{
-    font-family: Oswald, sans-serif;
+    font-family: Spectral+SC, sans-serif;
     text-transform: uppercase;
-    letter-spacing: 4px;
+    letter-spacing: 2px;
     color: #252525;
 }
 
