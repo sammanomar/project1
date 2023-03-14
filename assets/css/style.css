@@ -450,8 +450,10 @@ td{
     text-align: center;
     position: absolute;
     margin-top: 140px;
-    margin-left: 570px;
-
+    margin-left: 534px;
+    width: 300; 
+    height: 400;
+   
 }
 
 /* to be added later */
