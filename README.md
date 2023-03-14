@@ -1,108 +1,273 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+Omar Samman Portfolio/Website
 
-Welcome sammanomar,
+Responsive screenshot
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+The purpose with this project
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+This dynamic website was made for the purpose of jobs seeking and hunting
 
-## Gitpod Reminders
+The site contains three pages : introduction home page, career history page and get in touch for page.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+The target audience are employers and customers world wide.
 
-`python3 -m http.server`
+This website is the first of five projects that needs to be completed in order to receive a diploma in Software Development from The Code Institute.
 
-A blue button should appear to click: _Make Public_,
+Requirements for the project is that the website has to be static and responsive using HTML5 and CSS3.
 
-Another blue button should appear to click: _Open Browser_.
+A live version of the project can be found here -  https://sammanomar.github.io/project1/
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+Table of Content
 
-A blue button should appear to click: _Make Public_,
+UX
+User Demographic
+User Stories
+Existing Parties
+New Users
+User Goals
+Requirements
+Design
+Colors
+Typography
+Images
+Features
+Existing Features
+Header and Navigation Section
+Hero Header Section
+About us Section
+2022 Events Section
+Contact and Registration Section
+Footer Section
+Form-dump page
+Features Left to Implement
+Technologies used
+Testing
+Validator Testing
+Unfixed Bugs
+Development and Deployment
+Content
+Media
+Credits
+UX
 
-Another blue button should appear to click: _Open Browser_.
+User Demographic
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+This website is meant for:
 
-To log into the Heroku toolbelt CLI:
+Employers who are looking for my skill-set
+Customers that need my services
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+Existing parties
 
-------
+As an employer: I want to be able to see the creative portfolio of Omar.
+As an employee: I want to get in touch with employers.
+As a Customer: I want to be able to contact Omar for enquiries.
 
-## Release History
+New Users
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+As a new User: I want to know more of about Omar skill-set
+As a new User: I want to contact Omar for a possible job contracts.
+As a new User: I want to contact Omar for enqueries.
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+User Goals
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+Scouting, head-hunting and recruiting
+Requests and enquiries
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+Requirements
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+A static responsive website that incorporates the technologies I have learned so far that contains some advanced functionality. The development process needs to be well documented through a version controls system such as GitHub.
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+Required technologies: HTML, CSS
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+Design
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+As this is my first project the design has been influenced by the ”Love Running” & "Coffeeshop in Dublin" - projects. The code and the design from the header and the footer have been borrowed from the two project.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+My aim has been to create a clean looking website where there is a balance between colors, images and functionality.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+Omar Samman website is a 3 pages website divided into sections. Menu is fixed on top in order to ensure easy navigation between the pages.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+Colors
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+The color palette was created using my favorite blue-ocean and sky-blue color.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+Color Palette
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+Typography
 
-------
+Late, Oswald Font were chosen as the body and heading font with a fallback of Sans-Serif.
 
-## FAQ about the uptime script
+Images
 
-**Why have you added this script?**
+Images has been chosen in accordance to color and content. The purpose of the website is to give a friendly look and express quality. Images has been sized in order to match design.
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
 
-**How will this affect me?**
+Features
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+Omar Samman website is a 3 pages website that consists of these sections:
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+Header (Logo/Menu)
+Download CV options (Page 1 and page 2)
+Hero Header (animated picture)
+recommendations/Skills/Strength
+Creative picture in the middle (page 1 and page 2)
+5 divided pictures lined to career history page
+Contact, map and linked-in
+Footer
+In the second page and in order to make navigation easier between the sections the navigation bar is fixed on bottom when the user scrolls thru the page.
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+Existing Features
 
-**So….?**
+Header and Navigation Section
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+The Header consists of my name section, text-based, that is aligned to the left and a Menu that is aligned to the right.
+At career history page the Header is at a fixed position on top and follows the user as the user scrolls down the page. Menu items are anchored to pages on the website.
 
-**Can I opt out?**
+Header and navigation
+Animated Hero Header Section
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+The Hero Header section contains an animated Hero Image, header and paragraph.
+The section will give user a sense of nice and sunny sea and beach view. The section also contains a header and a paragraph that gives the user a clear message on what this website is about.
+Hero Header Section
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
 
-**Anything more?**
+About Us - Image 1
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+About us Section part 1
 
----
+About Us - Image 2
 
-Happy coding!
+About us Section part 2
+
+2022 Events Section
+
+This section contains a header and three information boxes. The information boxes contains an image and a paragraph.
+The purpose of this section is to give the User an understanding on what type of events NTS is providing to its members. Each event has a picture that shows something related to the event type so that it increases the Users curiosity.
+2022 Events Section
+
+Get in touch page
+
+The section contains a registration form and contact details to NTS. It also has a map that displays the location to NTS.
+The purpose of this section is to make contact and registration as easy as possible. The User uses the form to sign up as a member or to register interest. In order to establish direct contact as easy as possible the section also provides the User with a telephone number and an email. If the form is used in this version it sends the User to a form-dump page with a message.
+Contact and Registration Section
+
+Footer Section
+
+The Footer contains four social media links (Facebook, Twitter, YouTube and Instagram) The code for the Footer is borrowed from the Love Running - Project.
+The purpose of the Footer is to provide easy access for the User to the different social media platforms were Nacka Tomato Society has a presence.
+Footer
+
+Form-dump page
+
+This site contains a message when the form has been used.
+The purpose of this page is to give the user an indication on that the form is working and that the message has been recived.
+Form-dump page
+
+Features Left to Implement
+
+Later versions of this project will contain a member section were members can upload inspirational images.
+Back to top
+
+Technologies used
+
+HTML
+CSS
+Testing
+
+Test of functionality and appearance of the website has have been dealt with thru out all stages of the development phase.
+
+Test has been conducted using Google Chrome and Safari. Testing different devices and screen resolutions has been conducted using Google DevTools.
+
+Listed is the main issues discovered.
+
+Unclosed div and p element were discovered
+Solution: closed
+
+Download CV links didn't work correctly because of some spaces
+Solution: spaces were removed and it function correctly
+
+Unnecessary sections wrapped ids were added wrongly
+Solution: sections removed and the commands were wrapped with divs instead
+
+Duplicated ids were added wrong
+Solution: classes were added to override the duplicated ids error
+
+Top menu disappears even though its fixed.
+Solution: Had to use z-index to keep the menu on top of all sections and elements, value set to 20
+
+
+Apart from these issues there have been several minor issues. The majority of these has been due to miss spelled tags, attributes and other mistakes.
+Solution: The errors were easily corrected.
+
+Validator Testing
+
+HTML
+No errors were returned when passing through the official W3C Validator
+W3C HTML Validator
+
+CSS
+No errors were returned when passing through the official (Jigsaw validator)
+Jigsaw validator
+
+Lighthouse testing
+Lighthouse testing score
+
+Unfixed Bugs
+
+All known bugs in this section has been moved to the section Testing with solution when they have been solved. Last known bug solved on 2022-03-14. No more testing will be conducted now and the project will be submitted.
+
+Back to top
+
+Development and Deployment
+
+The development environment used for this project was GitPod. To track the development stage and handle version control regular commits and pushes to GitHub has been conducted. The GitPod environment was created using a template provided by Code Institute.
+
+The live version of the project is deployed at GitHub pages.
+
+The procedure for deployment followed the "Creating your site" steps provided in GitHub Docs.
+
+Log into GitHub.
+Locate the GitHub Repository that shall be deployed live.
+At the top of the repository, select Settings from the menu items.
+Scroll down the Settings page to the ”GitHub Pages" section and click on the ”Check it out here!”
+At the ”Source” section choose ”main” as Branch and root as folder and click ”Save”
+The website will deploy and the pages refreshes to provide the live link to the project.
+The live link can be found here - https://pelikantapeten.github.io/p1-nacka-tomato-society/
+
+Content
+
+All text content on this site has been produced by the author of the project and is not fictional. It represents my real life career history and up to date portfolio.
+The design of the project is inspired by Code Institutes ”Love Running” and coffeeshop in Dublin projects. Code has been borrowed from the two projects, the Footer. It is commented in index.html and styles.css were the the borrowed code is applied.
+The icons in the header, contact and registration and footer were taken from Font Awesome
+Media
+
+All images are taken directly by my mobile phone. They are licensed under a broad commercial license that allows them to be used in this project (Named ”P1”). The license allows usage for public purposes.
+
+Link to license agreement
+
+Credits
+
+For code inspiration, design inputs, help and advice. Many thanks to:
+
+
+My great mentor at Code Institute
+Lauren-Nicole
+
+Junior Web Developer - SWGFL | Hackteam: Thank you for the help with git pull problem
+Kera Cudmore
+
+
+Sites that has provided me with knowledge and information that has been vital to this project:
+
+https://www.w3schools.com/ https://stackoverflow.com https://www.diffchecker.com https://www.quora.com
+
+And all the content in HTML-Essentials, CSS-Essentials and the Walkthrough project ”Love Running” that has provided inspiration and knowledge.
+
+7 screenshots were uploaded directly to github
+
+
+Best regards
+
+Back to top
