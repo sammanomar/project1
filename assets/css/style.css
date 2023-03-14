@@ -458,12 +458,35 @@ td{
 
 /* to be added later */
 
-#bigger-text{
+.bigger-text{
     font-size: 21px;
 }
 
-/* contact */
+/* duplicated ids/ class were added to override the id error with 
+welcome, right-about, left-about and center-about ids */
 
+.contact {
+    margin: 20px 0;
+    text-align: center;
+    font-size: 280%;
+}
+
+.left-about{
+    padding-top: 30px;
+    width: 33%;
+    float: left;
+}
+
+.right-about {
+    padding-top: 30px;
+    width: 33%;
+    float: right;
+}
+
+.center-about {
+    width: 33%;
+    margin: 0 auto;
+}
 
 /* map */
 
