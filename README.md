@@ -97,7 +97,7 @@ Color Palette
 
 Typography
 
-Late, Oswald Font were chosen as the body and heading font with a fallback of Sans-Serif.
+Karla, Spectral+SC Font were chosen as the body and heading font with a fallback of Sans-Serif.
 
 Images
 
