@@ -337,3 +337,43 @@ class="lazy"
 </body>
 
 </html>
+
+
+
+<!-- chart start  -->
+
+ 
+ 
+
+<body>
+<div class="chart">
+  <ul class="numbers">
+    <li><span>100%</span></li>
+    <li><span>100%</span></li>
+    <li><span>100%</span></li>
+  </ul>
+  <ul class="bars">
+    <li><div class="bar" data percentage="100"></div><span>option1</span></li>
+    <li><div class="bar" data percentage="100"></div><span>option2</span></li>
+    <li><div class="bar" data percentage="100"></div><span>option3</span></li>
+    <li><div class="bar" data percentage="100"></div><span>option4</span></li>
+
+  </ul>
+</div>
+
+<script type="text/JavaScript">
+$(function(){
+  $('.bars li .bar').each(function(key,bar){
+    var percentage = $(this).data('percentage');
+    $(this).animate({
+      'height' : percentage + '%'
+    },1000);
+  });
+});
+  
+</script>
+
+<!-- chart end  -->
+
+</body>
+
