@@ -21,15 +21,10 @@ h1, h2{
     color: #252525;
 }
 
-#logo{
-    float: left;
-    font-size: 280%;
-    margin-left: 30px;
-    position: fixed;
-    top: 0;
-    margin-top: 8px;
-    padding-top: 53px;
-    color: rgb(0, 0, 0);
+.logo{
+    font-size: 30px;
+    font-weight: 900;
+   
 
 }
 
@@ -45,7 +40,6 @@ h1, h2{
     letter-spacing: 4px;
     font-weight: lighter;
     color: rgb(161, 161, 161);
-    
     
 }
 
@@ -63,6 +57,7 @@ h1, h2{
 #menu a {
     text-decoration: none;
     color: inherit;
+    
 }
 
 #menu a:hover{
@@ -323,7 +318,7 @@ footer {
 }
 
 .text-input:hover{
-    border-color: #f16c6b;
+    border-color: #002fff;
     
 }
 
@@ -842,7 +837,7 @@ p.summary:first-letter {
 
 .fixed-social {
     position: fixed;
-    top: 200px;
+    top: 36px;
     right: 90%;
     text-align: center;
 }
@@ -851,7 +846,7 @@ p.summary:first-letter {
     display: block;
     width: 26px;
     height: 30px;
-    opacity: 4;
+    opacity: 0.4;
     transition: all .2s ease;
     margin: 0 auto 10px;
 }
@@ -1369,7 +1364,7 @@ body, table, input, select, textarea {
 
 	} /* min-width:32em */
 
-} /* grid only */
+}} /* grid only */
 
 /* For medium screens sizes from 1000px wide and down */
 
@@ -1377,4 +1372,61 @@ body, table, input, select, textarea {
 
 /* change the font color when scroll/*/
 
+body{ margin: 0;
+      padding: 0;
 
+
+}
+.textt{
+    position: fixed;
+    top: 50%;
+    left: 87%;
+    transform: translateY(-50%);
+    font-size: 1.25em;
+    border: 0px solid #fff;
+    padding: 20px;
+    color: #000000;
+    text-align: center;
+    mix-blend-mode: difference;
+
+}
+
+
+section{
+    width: 0%;
+    height: 0vh;
+
+
+}
+
+section:nth-child(1){
+    background-color: #000;
+}
+section:nth-child(2){
+    background-color: #fff;
+    
+}section:nth-child(3){
+    background-color: #4dd9de;
+    
+}section:nth-child(4){
+    background-color: #32e875;
+    
+}section:nth-child(5){
+    background-color: #ffd31d;
+    
+}section:nth-child(6){
+    background-color: #4d3e3e;
+    
+}section:nth-child(7){
+    background-color: #fa9191;
+    
+}section:nth-child(8){
+    background-color: #d8c593;
+    
+}section:nth-child(9){
+    background-color: #af8baf;
+    
+}section:nth-child(10){
+    background-color: #cf7500;
+    
+}
