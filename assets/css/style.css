@@ -15,7 +15,7 @@ body{
 /* headings and logo */
 
 h1, h2{
-    font-family: Spectral+SC, sans-serif;
+    font-family: Karla, sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
     color: #252525;
@@ -28,7 +28,14 @@ h1, h2{
     position: fixed;
     top: 0;
     margin-top: 8px;
+    padding-top: 53px;
+    color: rgb(0, 0, 0);
 
+}
+
+.white-logo{
+    color:white
+    
 }
 
 /* navigation links */
@@ -113,8 +120,6 @@ h1, h2{
 
     padding-top: 40px;
     padding-left: 10px;
-
-    background-color: rgb(41, 159, 255);
 
     bottom: 200px;
     right: 158px;
@@ -220,7 +225,7 @@ hr {
 /* Event times */
 
 #times{
-    background-image: url('/assets/images/sea.jpg');
+    background-image: url("../images/sea.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -290,13 +295,7 @@ footer {
 
 /* Form */
 
-.form-section {
-    clear: left;
-    background: url('../images/pic.jpg');
-    background-size: cover;
-    background-position: center;
-    height: 900px;
-}
+
 
 .signup-form {
     margin: 150px 10% 0 0;
@@ -304,7 +303,7 @@ footer {
     background-color: rgba(60, 60, 60, 0.6);
     max-width: 400px;
     position: absolute;
-    left: 10%;
+    left: 1%;
     padding:30px;
 }
 
@@ -334,7 +333,7 @@ footer {
     padding: 15px 32px 15px 32px;
     text-align: center;
     font-size: 100%;
-    background-color: #f16c6b;
+    background-color: #41a1f0;
     color: #fafafa;
     display: block;
 }
@@ -503,8 +502,6 @@ welcome, right-about, left-about and center-about ids */
     border: none;
 }
 
-/* Top Nav to specific sections */
-ids institute/novum/wilkon/jci/marwan/khumasyah
 
 /* cover-text-contact */
 
@@ -523,18 +520,20 @@ ids institute/novum/wilkon/jci/marwan/khumasyah
     width: 400px;
     height: 300px;
 
-    padding-top: 10px;
+    padding-top: 5px;
     padding-left: 10px;
+    padding-bottom: 80px;
 
     background-color: rgb(41, 159, 255);
     
 
-    bottom: 284px;
+    bottom: 300px;
     right: 158px;
 
     position: absolute;
 
     background: transparent;
+    
 
 }
 
@@ -1371,4 +1370,11 @@ body, table, input, select, textarea {
 	} /* min-width:32em */
 
 } /* grid only */
+
+/* For medium screens sizes from 1000px wide and down */
+
+/* image of contactme/*/
+
+/* change the font color when scroll/*/
+
 
