@@ -29,7 +29,6 @@ header .logo
   position: relative;
   width: 60px;
   height: 60px;
- 
   background-repeat: no-repeat;
   background-size: 30px;
   background-position: center;
@@ -37,7 +36,6 @@ header .logo
 }
 .toggle.active
 {
-
   background-repeat: no-repeat;
   background-size: 25px;
   background-position: center;
@@ -194,7 +192,7 @@ header .logo
   }
   .text h2
   {
-    font-size: 2.8em;
+    font-size: 3em;
   }
   .text h3
   {
