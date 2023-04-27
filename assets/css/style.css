@@ -92,7 +92,7 @@ header .logo
 {
   font-size: 5em;
   font-weight: 800;
-  color: #fff;
+  color: rgb(255, 255, 255);
   line-height: 1em;
   text-transform: uppercase;
 }
@@ -209,22 +209,22 @@ header a {
 
 /* languages style */
 .langs{
-    text-align: center;
+    text-align: left;
    
 }
 
 .langs a{
     color: #fff;
     text-decoration: none;
-    padding: 6px;
-    font-weight: 650;
+    padding: 5px;
+    font-weight: 550;
     transition: .3s linear;
     border-radius: 10%;
 }
 
 .langs a:hover{
-    background: #82ce87;
+    background: #f7ad8b;
 }
 .langs a.active{
-    background: #204829;
+    background: #db580c;
 } 
