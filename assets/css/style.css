@@ -201,3 +201,36 @@ header .logo
     font-size: 1em;
   }
 }
+
+/* added */
+header a {
+    text-decoration: none;
+}
+
+/* language style */
+.langs{
+    text-align: center;
+    margin: 10px 20px;
+    padding: 12px 24px;
+}
+
+.langs a{
+    color: #fff;
+    text-decoration: none;
+    padding: 12px;
+    font-weight: 650;
+    transition: .3s linear;
+    border-radius: 10%;
+}
+
+.langs a:hover{
+    background: #82ce87;
+}
+.langs a.active{
+    background: #204829;
+}
+
+.showcase li{
+    list-style: none;
+    display: inline-block;
+}   

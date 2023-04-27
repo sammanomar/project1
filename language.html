@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Omar Samman for data analytics and coding, KPI">
+    <meta name="keywords" content="Omar Samman, data analytics, KPI, coding">
+    <title>Omar Samman</title>
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <section class="showcase">
+        <header>
+        <ul>
+        <li><a href="index.html"><h2 class="logo">Omar Samman</h2></a></li>
+        <div class="langs">
+        <li><a href="#" language="english" class="active">ENG</a></li>
+        <li><a href="#" language="german">DE</a></li>
+        <li><a href="#" language="arabic">AR</a></li>
+        <li><a href="#" language="spanish">ES</a></li>
+        <li><a href="#" language="korean">KO</a></li>
+        </ul>  
+        </div>
+        </header>
+        <video src="" muted loop autoplay></video>
+        <div class="overlay"></div>
+        <div class="text">
+        <h2 class="title">Finance Analyst</h2> 
+        <h3 class="company">Johnson Controls</h3>
+        <h3 class="description">Dubai</h3>
+        <p class="ddd"><b>March, 14 2011 - May, 13 2014</b></p>
+        <a class="box" href="accountant.html">Accountant</a>
+        <a class="boxx" href="recommendations.html">Recommendations</a>
+        </div>
+        <ul class="social">
+            <li><a href="https://www.linkedin.com/in/omar-samman-3a65b2267" target="_blank" rel="noopener"
+                        aria-label="Visit my linkedin page (opens in a new tab)"><img src="assets/images/l.png"></a></li>
+        </ul>
+    </section>
+    <div class="menu">
+        <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="recommendations.html">Recommendations</a></li>
+        <li><a href="">Languages</a></li>
+        <li><a href="assets/images/utd.pdf" target="_blank">Download CV</a></li>
+        <li><a href="#">Contact</a></li>
+        </ul>
+    </div>    
+
+    <script>
+        let langs = document.querySelector(".langs"),
+            link = document.querySelectorAll("a"),
+            title = document.querySelector(".title"),
+            descr = document.querySelector(".description"),
+            dat = document.querySelector(".ddd"),
+            company = document.querySelector(".company"),
+            box = document.querySelector(".box"),
+            boxx = document.querySelector(".boxx");
+
+        link.forEach(el=>{
+            el.addEventListener("click", ()=>{
+                langs.querySelector(".active").classList.remove("active");
+                el.classList.add("active");
+
+                let attr = el.getAttribute("language")
+
+                title.textContent = data[attr].title
+                descr.textContent = data[attr].description
+                dat.textContent = data[attr].ddd
+                company.textContent = data[attr].company
+                box.textContent = data[attr].box
+                boxx.textContent = data[attr].boxx
+            })
+        })
+
+        let data = {
+            arabic: {
+                title: "محلل مالي",
+                description: "دبي",
+                ddd: "١٤ مارس ٢٠١١ - ١٣ مايو ٢٠١٤",
+                company: "Johnson Controls",
+                box: "محاسب",
+                boxx: "التوصيات"
+            },
+            english: {
+                title: "Finance Analyst",
+                description: "Dubai",
+                ddd: "March, 14 2011 - May, 13 2014",
+                company: "Johnson Controls",
+                box: "Accountant",
+                boxx: "Recommendations"
+            },
+            german: {
+                title: "Finanzanalyst",
+                description: 'Dubai',
+                ddd: "14. März 2011 - 13. Mai 2014",
+                company: "Johnson Controls",
+                box: "Buchhalter",
+                boxx: "Empfehlungen"
+            },
+            spanish: {
+                title: "Analista financiero",
+                description: 'Dubái',
+                ddd: "14 marzo 2011 - 13 mayo 2014",
+                company: "Johnson Controls",
+                box: "contador",
+                boxx: "Recomendaciones"
+            },
+            korean: {
+                title: "재무 분석가",
+                description: '두바이',
+                ddd: "2011년 3월 14일 - 2014년 5월 13일",
+                company: "Johnson Controls",
+                box: "회계사",
+                boxx: "추천"
+            }
+        }
+    </script>
+
+    <script>
+        const menuToggle = document.querySelector('.toggle');
+        const showcase = document.querySelector('.showcase');
+
+        menuToggle.addEventListener('click', () => {
+        menuToggle.classList.toggle('active');
+        showcase.classList.toggle('active');
+        })
+    </script>
+</body>
+</html>
+
