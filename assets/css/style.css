@@ -194,7 +194,7 @@ header .logo
   }
   .text h2
   {
-    font-size: 2em;
+    font-size: 1.8em;
   }
   .text h3
   {
@@ -217,7 +217,7 @@ header a {
 .langs a{
     color: #fff;
     text-decoration: none;
-    padding: 12px;
+    padding: 10px;
     font-weight: 650;
     transition: .3s linear;
     border-radius: 10%;
