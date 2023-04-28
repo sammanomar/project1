@@ -187,23 +187,6 @@ header .logo
   color: #03a9f4; 
 }
 
-@media (max-width: 798px)
-{
-  .showcase,
-  .showcase header
-  {
-    padding: 25px;
-  }
-  .text h2
-  {
-    font-size: 1.8em;
-  }
-  .text h3
-  {
-    font-size: 1em;
-  }
-}
-
 /* added */
 header a {
     text-decoration: none;
@@ -230,3 +213,20 @@ header a {
 .langs a.active{
     background: #db580c;
 } 
+
+@media (max-width: 798px)
+{
+  .showcase,
+  .showcase header
+  {
+    padding: 25px;
+  }
+  .text h2
+  {
+    font-size: 1.8em;
+  }
+  .text h3
+  {
+    font-size: 1em;
+  }
+}
