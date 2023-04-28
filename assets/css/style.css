@@ -59,7 +59,7 @@ header .logo
 }
 .showcase.active
 {
-  right: 300px;
+  right: 200px;
 }
 
 .showcase video
@@ -160,7 +160,7 @@ header .logo
   position: absolute;
   top: 0;
   right: 0;
-  width: 300px;
+  width: 200px;
   height: 100%;
   display: flex;
   justify-content: center;
@@ -177,7 +177,7 @@ header .logo
 .menu ul li a
 {
   text-decoration: none;
-  font-size: 24px;
+  font-size: 18px;
   color: #111;
 }
 .menu ul li a:hover
