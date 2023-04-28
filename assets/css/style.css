@@ -24,6 +24,11 @@ header .logo
   text-transform: uppercase;
   cursor: pointer;
 }
+/* remove bullets */
+header ul
+{
+    list-style-type: none;
+}
 .toggle
 {
   position: relative;
@@ -199,7 +204,7 @@ header a {
 .langs a{
     color: #fff;
     text-decoration: none;
-    padding: 5px;
+    padding: 3px;
     font-weight: 550;
     transition: .3s linear;
     border-radius: 10%;
@@ -218,7 +223,7 @@ header a {
   .showcase,
   .showcase header
   {
-    padding: 25px;
+    padding: 12px;
   }
   .text h2
   {
