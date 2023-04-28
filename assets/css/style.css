@@ -204,6 +204,7 @@ header a {
     font-weight: 550;
     transition: .3s linear;
     border-radius: 10%;
+    font-size: 13px;
 }
 
 .langs a:hover{
