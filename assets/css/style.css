@@ -109,7 +109,7 @@ header ul
 }
 .text p
 {
-  font-size: 0.9em;
+  font-size: 0.8em;
   color: #fff;
   margin: 20px 0;
   font-weight: 400;
@@ -204,7 +204,7 @@ header a {
 .langs a{
     color: #fff;
     text-decoration: none;
-    padding: 3px;
+    padding: 0px;
     font-weight: 550;
     transition: .3s linear;
     border-radius: 10%;
@@ -223,14 +223,14 @@ header a {
   .showcase,
   .showcase header
   {
-    padding: 12px;
+    padding: 8px;
   }
   .text h2
   {
-    font-size: 1.5em;
+    font-size: 1.1em;
   }
   .text h3
   {
-    font-size: 1em;
+    font-size: 0.8em;
   }
 }
