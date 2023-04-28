@@ -198,3 +198,64 @@
 </body>
 </html>
 
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Omar Samman for data analytics and coding, KPI">
+    <meta name="keywords" content="Omar Samman, data analytics, KPI, coding">
+    <title>Omar Samman</title>
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <!-- Video Source -->
+    <!-- https://www.pexels.com/video/aerial-view-of-beautiful-resort-2169880/ -->
+    <section class="showcase">
+        <header>
+        <a href="index.html"><h2 class="logo">Omar Samman</h2></a>
+        <div class="toggle"></div>
+        </header>
+        <video src="assets/videos/ireland.mp4" muted loop autoplay></video>
+        <div class="overlay"></div>
+        <div class="text">
+        <h2>Full Stack Developer</h2> 
+        <h3>Code Institute</h3>
+        <h3>Dublin</h3>
+        <p><b>February, 16 2023 - August, 16 2023</b></p>
+        <p>HTML/CSS Essentials, JavaScript Essentials, Python Essentials, Full Stack Toolkit, 
+            Advanced Front End, E-commerce Applications, Predictive Analytics</p>
+        </div>
+        <ul class="social">
+        <li><a href="https://www.linkedin.com/in/omar-samman-3a65b2267" target="_blank" rel="noopener"
+                    aria-label="Visit my linkedin page (opens in a new tab)"><img src="assets/images/l.png"></a></li>
+        </ul>
+    </section>
+    <div class="menu">
+        <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="recommendations.html">Recommendations</a></li>
+        <li><a href="#">Languages</a></li>
+        <li><a href="assets/images/utd.pdf" target="_blank">Download CV</a></li>
+        <li><a href="#">Contact</a></li>
+        </ul>
+    </div>
+    <script>
+      const menuToggle = document.querySelector('.toggle');
+      const showcase = document.querySelector('.showcase');
+
+      menuToggle.addEventListener('click', () => {
+        menuToggle.classList.toggle('active');
+        showcase.classList.toggle('active');
+      })
+    </script>
+    <footer></footer>
+</body>
+</html>    
