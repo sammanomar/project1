@@ -256,7 +256,7 @@ header a {
 }
 .text h2
 {
-  font-size: 1.1em;
+  font-size: 1em;
 }
 .text h3
 {
@@ -265,10 +265,21 @@ header a {
 .text a
 {
   font-size: 0.8em;
+  padding: 5px 20px;
+  margin-top: 0px;
+  letter-spacing: 1px;
 }
 header .logo
 {
   font-size: 0.8em;
-}    
+}
+.text p
+{
+  font-size: 0.8em;
+}
+.langs
+{
+  font-size: 0.8em;
+}  
 }
 
