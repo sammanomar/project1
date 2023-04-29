@@ -114,8 +114,7 @@ header ul
   margin: 20px 0;
   font-weight: 400;
   max-width: 700px;
-  height: 30 px;
-  overflow: scroll;
+  margin-top: 0;
 }
 .text a
 {
@@ -192,45 +191,80 @@ header ul
 
 /* added */
 header a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 /* languages style */
 .langs{
-    text-align: left;
+  text-align: left;
    
 }
 
 .langs a{
-    color: #fff;
-    text-decoration: none;
-    padding: 0px;
-    font-weight: 550;
-    transition: .3s linear;
-    border-radius: 10%;
-    font-size: 13px;
+  color: #fff;
+  text-decoration: none;
+  padding: 0px;
+  font-weight: 550;
+  transition: .3s linear;
+  border-radius: 10%;
+  font-size: 13px;
 }
 
 .langs a:hover{
-    background: #f7ad8b;
+  background: #f7ad8b;
 }
 .langs a.active{
-    background: #db580c;
+  background: #db580c;
 } 
 
 @media (max-width: 798px)
 {
-  .showcase,
-  .showcase header
-  {
-    padding: 8px;
-  }
-  .text h2
-  {
-    font-size: 1.1em;
-  }
-  .text h3
-  {
-    font-size: 0.8em;
-  }
+.showcase,
+.showcase header
+{
+  padding: 8px;
+}
+.text h2
+{
+  font-size: 1.1em;
+}
+.text h3
+{
+  font-size: 0.8em;
+}
+}
+/* scroll paragraphs*/
+.jd
+{ overflow: scroll; 
+  height: 41px;
+}
+.jd:active::-webkit-scrollbar-thumb,
+.jd:focus::-webkit-scrollbar-thumb,
+.jd:hover::-webkit-scrollbar-thumb {
+    visibility: visible;
+}
+.jd::-webkit-scrollbar-thumb {
+    background-color: #fff;
+}
+
+.jd::-webkit-scrollbar {
+    width: 2px;
+    height: 2px;
+}
+.jjd
+{ overflow: scroll; 
+  height: 41px;
+}
+.jjd:active::-webkit-scrollbar-thumb,
+.jjd:focus::-webkit-scrollbar-thumb,
+.jjd:hover::-webkit-scrollbar-thumb {
+    visibility: visible;
+}
+.jjd::-webkit-scrollbar-thumb {
+    background-color: #fff;
+}
+
+.jjd::-webkit-scrollbar {
+    width: 2px;
+    height: 2px;
 }
