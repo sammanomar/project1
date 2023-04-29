@@ -234,7 +234,7 @@ header a {
 }
 }
 /* scroll paragraphs*/
-.jd
+.jd, .jjd
 { overflow: scroll; 
   height: 41px;
 }
@@ -246,14 +246,9 @@ header a {
 .jd::-webkit-scrollbar-thumb {
     background-color: #fff;
 }
-
 .jd::-webkit-scrollbar {
-    width: 2px;
-    height: 2px;
-}
-.jjd
-{ overflow: scroll; 
-  height: 41px;
+    width: 3px;
+    height: 3px;
 }
 .jjd:active::-webkit-scrollbar-thumb,
 .jjd:focus::-webkit-scrollbar-thumb,
@@ -263,8 +258,7 @@ header a {
 .jjd::-webkit-scrollbar-thumb {
     background-color: #fff;
 }
-
 .jjd::-webkit-scrollbar {
-    width: 2px;
-    height: 2px;
+    width: 3px;
+    height: 3px;
 }
