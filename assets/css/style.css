@@ -265,8 +265,8 @@ header a {
 .text a
 {
   font-size: 0.8em;
-  padding: 5px 20px;
-  margin-top: 0px;
+  padding: 3px 10px;
+  margin-top: 2px;
   letter-spacing: 1px;
 }
 header .logo
