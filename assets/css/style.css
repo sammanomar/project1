@@ -215,24 +215,8 @@ header a {
 }
 .langs a.active{
   background: #db580c;
-} 
+}
 
-@media (max-width: 798px)
-{
-.showcase,
-.showcase header
-{
-  padding: 8px;
-}
-.text h2
-{
-  font-size: 1.1em;
-}
-.text h3
-{
-  font-size: 0.8em;
-}
-}
 /* scroll paragraphs*/
 .jd, .jjd
 { overflow: scroll; 
@@ -262,3 +246,29 @@ header a {
     width: 3px;
     height: 3px;
 }
+
+@media (max-width: 798px)
+{
+.showcase,
+.showcase header
+{
+  padding: 8px;
+}
+.text h2
+{
+  font-size: 1.1em;
+}
+.text h3
+{
+  font-size: 0.8em;
+}
+.text a
+{
+  font-size: 0.8em;
+}
+header .logo
+{
+  font-size: 0.8em;
+}    
+}
+
