@@ -318,6 +318,10 @@ header .logo
 {
   font-size: 0.6em;
 }
+.menu
+{
+  width: 100px;
+}
 .menu ul li a
 {
   font-size: 9.5px;
