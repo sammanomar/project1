@@ -284,20 +284,38 @@ header .logo
 }  
 }
 
-
-/* google-map */
-
-.google-map
+@media (max-width: 200px)
 {
-    position: relative;
-    padding-bottom: 0%; // This is the aspect ratio
-    height: 0;
-    overflow: hidden;
+.showcase,
+.showcase header
+{
+  padding: 8px;
 }
-.google-maps iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100% !important;
-    height: 100% !important;
+.text h2
+{
+  font-size: 1em;
+}
+.text h3
+{
+  font-size: 0.5em;
+}
+.text a
+{
+  font-size: 0.5em;
+  padding: 5px 10px;
+  margin-top: 2px;
+  letter-spacing: 1px;
+}
+header .logo
+{
+  font-size: 0.5em;
+}
+.text p
+{
+  font-size: 0.6em;
+}
+.langs
+{
+  font-size: 0.6em;
+}  
 }
