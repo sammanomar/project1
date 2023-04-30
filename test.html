@@ -1,261 +1,43 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Omar Samman for data analytics and coding, KPI">
-    <meta name="keywords" content="Omar Samman, data analytics, KPI, coding">
-    <title>Omar Samman</title>
-
-    <!-- Stylesheet -->
-    <link rel="stylesheet" href="assets/css/style.css">
-</head>
-<body>
-    <section class="showcase">
-        <header>
-        <a href="index.html"><h2 class="logo">Omar Samman</h2></a>
-        <div class="langs">
-        <a href="#" language="english" class="active">EN</a>
-        <a href="#" language="german">DE</a>
-        <a href="#" language="arabic">AR</a>
-        <a href="#" language="spanish">ES</a>
-        <a href="#" language="korean">KO</a>
-        </ul>  
-        </div>
-        <div class="toggle"></div>
-        </header>
-        <video src="assets/videos/main.mp4" muted loop autoplay></video>
-        <div class="overlay"></div>
-        <div class="text">
-        <h2 class="title">DATA EXPERT</h2> 
-        <h3 class="description">KPI, CODING & DATA VISUALIZATION</h3>
-        <p class="ddd">HTML, CSS, JS, PYTHON, SQL, SAS, SMIS, ISCALA, HFM, ORACLE, OPERA</p>
-        <a class="box" href="ireland.html">ireland</a>
-        <a class="boxx" href="germany.html">germany</a>
-        <a class="boxxx" href="uae.html">UAE</a>
-        </div>
-        <ul class="social">
-            <li><a href="https://www.linkedin.com/in/omar-samman-3a65b2267" target="_blank" rel="noopener"
-                        aria-label="Visit my linkedin page (opens in a new tab)"><img src="assets/images/l.png"></a></li>
-        </ul>
-    </section>
-    <div class="menu">
-        <ul>
-        <li><a class="home" href="index.html">Home</a></li>
-        <li><a class="ireland" href="ireland.html">Ireland</a></li>
-        <li><a class="germany" href="germany.html">Germany</a></li>
-        <li><a class="uae" href="uae.html">UAE</a></li>
-        <li><a class= "reco" href="recommendations.html">Recommendations</a></li>
-        <li><a class= "lang" href="language.html">Languages</a></li>
-        <li><a class= "cv" href="assets/images/utd.pdf" target="_blank">Download CV</a></li>
-        <li><a class="contact" href="contactme.html">Contact</a></li>
-        </ul>
-    </div>    
-
-    <script>
-        let langs = document.querySelector(".langs"),
-            link = document.querySelectorAll("a"),
-            title = document.querySelector(".title"),
-            descr = document.querySelector(".description"),
-            dat = document.querySelector(".ddd"),
-            company = document.querySelector(".company"),
-            box = document.querySelector(".box"),
-            boxx = document.querySelector(".boxx"),
-            boxxx = document.querySelector(".boxxx"),
-            home = document.querySelector(".home"),
-            ireland = document.querySelector(".ireland"),
-            germany = document.querySelector(".germany"),
-            uae = document.querySelector(".uae"),
-            reco = document.querySelector(".reco"),
-            lang = document.querySelector(".lang"),
-            cv = document.querySelector(".cv"),
-            contact = document.querySelector(".contact");
-
-        link.forEach(el=>{
-            el.addEventListener("click", ()=>{
-                langs.querySelector(".active").classList.remove("active");
-                el.classList.add("active");
-
-                let attr = el.getAttribute("language")
-
-                title.textContent = data[attr].title
-                descr.textContent = data[attr].description
-                dat.textContent = data[attr].ddd
-                company.textContent = data[attr].company
-                box.textContent = data[attr].box
-                boxx.textContent = data[attr].boxx
-                boxxx.textContent = data[attr].boxxx
-                home.textContent = data[attr].home
-                ireland.textContent = data[attr].ireland
-                germany.textContent = data[attr].germany
-                uae.textContent = data[attr].uae
-                lang.textContent = data[attr].lang
-                reco.textContent = data[attr].reco
-                cv.textContent = data[attr].cv
-                contact.textContent = data[attr].contact
-            })
-        })
-
-        let data = {
-            arabic: {
-                title: "خبير معلومات",
-                description: "مؤشرات الأداء الرئيسية والترميز وعرض البيانات",
-                ddd: "HTML, CSS, JS, PYTHON, SQL, SAS, SMIS, ISCALA, HFM, ORACLE, OPERA",
-                company: "جونسون كونترولز",
-                box: "إيرلندا",
-                boxx: "التوصيات",
-                boxxx: "التوصيات",
-                home: "التوصيات",
-                ireland: "التوصيات",
-                germany: "التوصيات",
-                uae: "التوصيات",
-                reco: "التوصيات",
-                lang: "التوصيات",
-                cv: "التوصيات",
-                contact: "التوصيات"
-            },
-            english: {
-                title: "DATA EXPERT",
-                description: "KPI, CODING & DATA VISUALIZATION",
-                ddd: "HTML, CSS, JS, PYTHON, SQL, SAS, SMIS, ISCALA, HFM, ORACLE, OPERA",
-                company: "Johnson Controls",
-                box: "Ireland",
-                boxx: "Recommendations",
-                boxxx: "التوصيات",
-                home: "التوصيات",
-                ireland: "التوصيات",
-                germany: "التوصيات",
-                uae: "التوصيات",
-                reco: "التوصيات",
-                lang: "التوصيات",
-                cv: "التوصيات",
-                contact: "التوصيات"
-            },
-            german: {
-                title: "DATENEXPERTE",
-                description: 'KPI, CODIERUNG & DATENVISUALISIERUNG',
-                ddd: "HTML, CSS, JS, PYTHON, SQL, SAS, SMIS, ISCALA, HFM, ORACLE, OPERA",
-                company: "Johnson Controls",
-                box: "Irland",
-                boxx: "Empfehlungen",
-                boxxx: "التوصيات",
-                home: "التوصيات",
-                ireland: "التوصيات",
-                germany: "التوصيات",
-                uae: "التوصيات",
-                reco: "التوصيات",
-                lang: "التوصيات",
-                cv: "التوصيات",
-                contact: "التوصيات"
-            },
-            spanish: {
-                title: "EXPERTO EN DATOS",
-                description: 'KPI, CODIFICACIÓN Y VISUALIZACIÓN DE DATOS',
-                ddd: "HTML, CSS, JS, PYTHON, SQL, SAS, SMIS, ISCALA, HFM, ORACLE, OPERA",
-                company: "Johnson Controls",
-                box: "Irlanda",
-                boxx: "Recomendaciones",
-                boxxx: "التوصيات",
-                home: "التوصيات",
-                ireland: "التوصيات",
-                germany: "التوصيات",
-                uae: "التوصيات",
-                reco: "التوصيات",
-                lang: "التوصيات",
-                cv: "التوصيات",
-                contact: "التوصيات"
-            },
-            korean: {
-                title: "데이터 전문가",
-                description: 'KPI, 코딩 및 데이터 시각화',
-                ddd: "HTML, CSS, JS, PYTHON, SQL, SAS, SMIS, ISCALA, HFM, ORACLE, OPERA",
-                company: "Johnson Controls",
-                box: "아일랜드",
-                boxx: "추천",
-                boxxx: "التوصيات",
-                home: "التوصيات",
-                ireland: "التوصيات",
-                germany: "التوصيات",
-                uae: "التوصيات",
-                reco: "التوصيات",
-                lang: "التوصيات",
-                cv: "التوصيات",
-                contact: "التوصيات"
-            }
-        }
-    </script>
-
-    <script>
-        const menuToggle = document.querySelector('.toggle');
-        const showcase = document.querySelector('.showcase');
-
-        menuToggle.addEventListener('click', () => {
-        menuToggle.classList.toggle('active');
-        showcase.classList.toggle('active');
-        })
-    </script>
-</body>
-</html>
-
-
-
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Omar Samman for data analytics and coding, KPI">
-    <meta name="keywords" content="Omar Samman, data analytics, KPI, coding">
-    <title>Omar Samman</title>
-
-    <!-- Stylesheet -->
-    <link rel="stylesheet" href="assets/css/style.css">
-</head>
-
-<body>
-    <!-- Video Source -->
-    <!-- https://www.pexels.com/video/aerial-view-of-beautiful-resort-2169880/ -->
-    <section class="showcase">
-        <header>
-        <a href="index.html"><h2 class="logo">Omar Samman</h2></a>
-        <div class="toggle"></div>
-        </header>
-        <video src="assets/videos/ireland.mp4" muted loop autoplay></video>
-        <div class="overlay"></div>
-        <div class="text">
-        <h2>Full Stack Developer</h2> 
-        <h3>Code Institute</h3>
-        <h3>Dublin</h3>
-        <p><b>February, 16 2023 - August, 16 2023</b></p>
-        <p>HTML/CSS Essentials, JavaScript Essentials, Python Essentials, Full Stack Toolkit, 
-            Advanced Front End, E-commerce Applications, Predictive Analytics</p>
-        </div>
-        <ul class="social">
-        <li><a href="https://www.linkedin.com/in/omar-samman-3a65b2267" target="_blank" rel="noopener"
-                    aria-label="Visit my linkedin page (opens in a new tab)"><img src="assets/images/l.png"></a></li>
-        </ul>
-    </section>
-    <div class="menu">
-        <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="recommendations.html">Recommendations</a></li>
-        <li><a href="#">Languages</a></li>
-        <li><a href="assets/images/utd.pdf" target="_blank">Download CV</a></li>
-        <li><a href="#">Contact</a></li>
-        </ul>
-    </div>
-    <script>
-      const menuToggle = document.querySelector('.toggle');
-      const showcase = document.querySelector('.showcase');
-
-      menuToggle.addEventListener('click', () => {
-        menuToggle.classList.toggle('active');
-        showcase.classList.toggle('active');
-      })
-    </script>
-    <footer></footer>
-</body>
-</html>    
+@media (max-width: 200px)
+{
+.showcase,
+.showcase header
+{
+  padding: 8px;
+}
+.text h2
+{
+  font-size: 1em;
+}
+.text h3
+{
+  font-size: 0.5em;
+}
+.text a
+{
+  font-size: 0.5em;
+  padding: 5px 10px;
+  margin-top: 2px;
+  letter-spacing: 1px;
+}
+header .logo
+{
+  font-size: 0.5em;
+}
+.text p
+{
+  font-size: 0.6em;
+}
+.langs
+{
+  font-size: 0.6em;
+}
+.menu ul li a
+{
+  font-size: 10px;
+}
+.menu
+{
+  width: 100px;
+}  
+}
