@@ -246,6 +246,7 @@ header a {
     width: 3px;
     height: 3px;
 }
+
 /* media query */
 @media (max-width: 798px)
 {
@@ -282,4 +283,9 @@ header .logo
   font-size: 0.8em;
 }  
 }
+
+
+
+/* contact form */
+
 
