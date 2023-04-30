@@ -246,7 +246,7 @@ header a {
     width: 3px;
     height: 3px;
 }
-
+/* media query */
 @media (max-width: 798px)
 {
 .showcase,
