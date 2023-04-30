@@ -292,3 +292,46 @@ header .logo
 }
 }
 
+@media (max-width: 200px)
+{
+.showcase,
+.showcase header
+{
+  padding: 8px;
+}
+.text h2
+{
+  font-size: 1em;
+}
+.text h3
+{
+  font-size: 0.5em;
+}
+.text a
+{
+  font-size: 0.5em;
+  padding: 5px 10px;
+  margin-top: 2px;
+  letter-spacing: 1px;
+}
+header .logo
+{
+  font-size: 0.5em;
+}
+.text p
+{
+  font-size: 0.6em;
+}
+.langs
+{
+  font-size: 0.6em;
+}
+.menu ul li a
+{
+  font-size: 10px;
+}
+.menu
+{
+  width: 80px;
+}  
+}
