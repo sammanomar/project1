@@ -58,6 +58,8 @@ A live version of the project can be found here -  https://sammanomar.github.io/
 25. Credits
 26. UX
 
+# 1. UX
+
 # 2. User Demographic
 
 # 3. Purpose of this project
@@ -66,7 +68,6 @@ This website is meant for:
 
 - Employers who are looking for my skill-set
 - Customers who need my services
-
 
 # 4. Existing parties
 
@@ -84,13 +85,11 @@ This website is meant for:
 
 Find a job and win contracts
 
-
 # 7. Requirements
 
 A static responsive website that incorporates the technologies I have learned so far that contains some advanced functionality. The development process needs to be well documented through a version controls system such as GitHub.
 
 Required technologies: HTML, CSS, JavaScript
-
 
 # 8. Design
 
@@ -104,7 +103,6 @@ Omar Samman website is a 7 pages website with one additional link to download CV
 
 The color palette was created using white, black, light grey in compatible with the background pictures and colors.
 
-
 # 10.Typography
 
 Karla, Spectral+SC Font were chosen as the body and heading font with a fallback of Sans-Serif.
@@ -116,7 +114,6 @@ Images has been chosen in accordance to color and content. The purpose of the we
 https://pexels.com
 https://opencityphotos.com
 https://unsplash.com/s/photos/erlangen
-
 
 # 12. Features
 
@@ -144,7 +141,6 @@ Omar Samman website is a 3 pages website that consists of :
 - Be aware that I have put linked anchor in the footer in the 1st and last pages while have removed it from the 2nd page intentionally because I replaced it with a sticky scroll down Linkedin log instead
 - 1 CV Page link has been added to the menu at the home page as a summary only while detailed CV link has been added to the career history page.
  
-
 # 14. Get in touch page
 
 The section contains a registration form and contact details. It also has a map that displays my location inside a round shape.
@@ -278,8 +274,6 @@ And all the content in HTML-Essentials, CSS-Essentials and the Walkthrough proje
 ![](/assets/screenshots/footerii.png)
 ![](/assets/screenshots/headeriii.png)
 ![](/assets/screenshots/footeriii.png)
-
-
 
 
 
